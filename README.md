@@ -1,0 +1,2 @@
+# WebInfinityBrowser
+Direitos Autorais© InfinityStudios
