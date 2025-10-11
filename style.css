@@ -1,0 +1,67 @@
+        @keyframes fundo {
+            0% { background-color: #000000; }
+            50% { background-color: #ffffff; }
+            100% { background-color: #000000; }
+        }
+
+        body {
+            animation: infinite 10s fundo;
+            background: linear-gradient(40deg, black, rgb(116, 116, 116));
+            background: no-repeat;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        @keyframes browsertitle {
+            0%   { color: #ffffff; position: absolute; top: 0%; }
+            50%  { color: #000000; position: absolute; top: 7%; }
+            100% { color: #ffffff; position: absolute; top: 0%; }
+        }
+
+        h1 {
+            color: #d8d8d8;
+            animation: infinite 10s browsertitle;
+            position: absolute;
+            left: 40%;
+        }
+
+        form {
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-left: 10px;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            animation: infinite 10s buscar;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #808080;
+        }
+
+        @keyframes buscar {
+            0%   { color: #000000; background-color: #ffffff; }
+            50%  { color: #ffffff; background-color: #000000; }
+            100% { color: #000000; background-color: #ffffff; }
+        }
+        h4{
+            margin-top: 25%;
+            animation: infinite 10s browsertitle;
+            position: absolute;
+            left: 40%;
+        }
