@@ -65,3 +65,15 @@
             position: absolute;
             left: 40%;
         }
+        .f{
+            justify-self: center;
+            display: flex;
+            margin-top: 400px;
+            animation: infinite infinity 10s;
+            border-radius: 4px;
+        }
+        @keyframes infinity {
+            0%   { background-color: #b1b1b1; }
+            50%  { background-color: #363636; }
+            100% { background-color: #b1b1b1; }
+        }
