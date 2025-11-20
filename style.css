@@ -1,27 +1,33 @@
-        @keyframes fundo {
-            0% { background-color: #000000; }
-            50% { background-color: #ffffff; }
-            100% { background-color: #000000; }
-        }
-
         body {
-            animation: infinite 10s fundo;
-            background: linear-gradient(40deg, black, rgb(116, 116, 116));
-            background: no-repeat;
+            background-image: url(./blue-mountain-0mcn2v524b1zmkfp.jpg);
+            background-size: 100%;
             font-family: Arial, sans-serif;
             text-align: center;
             padding-top: 100px;
+            color: white;
+            animation: alternate 2s enter;
+        }
+
+        @keyframes enter {
+            0% {
+                opacity: 0%;
+                margin: -100%;
+            }
+            100% {
+                opacity: 100%;
+                margin: 0%;
+            }
         }
 
         @keyframes browsertitle {
-            0%   { color: #ffffff; position: absolute; top: 0%; }
-            50%  { color: #000000; position: absolute; top: 7%; }
-            100% { color: #ffffff; position: absolute; top: 0%; }
+            0%   { position: absolute; top: 0%; }
+            50%  { position: absolute; top: 7%; }
+            100% { position: absolute; top: 0%; }
         }
 
         h1 {
-            color: #d8d8d8;
             animation: infinite 10s browsertitle;
+            color: white;
             position: absolute;
             left: 40%;
         }
@@ -44,36 +50,36 @@
             font-size: 16px;
             margin-left: 10px;
             border: none;
+            background-color: black;
             color: white;
             border-radius: 4px;
             cursor: pointer;
             animation: infinite 10s buscar;
+            transition: all 0.3s ease;
         }
 
         input[type="submit"]:hover {
             background-color: #808080;
+            border-radius: 20px;
         }
 
-        @keyframes buscar {
-            0%   { color: #000000; background-color: #ffffff; }
-            50%  { color: #ffffff; background-color: #000000; }
-            100% { color: #000000; background-color: #ffffff; }
-        }
         h4{
-            margin-top: 25%;
-            animation: infinite 10s browsertitle;
+            margin-top: 3%;
+            color: white;
             position: absolute;
             left: 40%;
         }
+
         .f{
             justify-self: center;
             display: flex;
             margin-top: 400px;
-            animation: infinite infinity 10s;
             border-radius: 4px;
+            background: rgb(58, 58, 58);
+            transition: 500ms;
         }
-        @keyframes infinity {
-            0%   { background-color: #b1b1b1; }
-            50%  { background-color: #363636; }
-            100% { background-color: #b1b1b1; }
+
+        .f:hover{
+            background-color: rgb(182, 182, 182);
+            border-radius: 0px;
         }

@@ -1,7 +1,5 @@
 # WebInfinityBrowser
 Direitos Autorais© InfinityStudios
 
-# BETA VERSION 1.0.5
-- Agora temos webview do edge.
-- melhora no designe.
-- correção de bugs.
+# Versão 1.0.5
+Agora nosso navegador está com a api do WebView! e com o novo designe.
