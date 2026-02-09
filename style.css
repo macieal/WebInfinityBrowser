@@ -6,7 +6,7 @@
             padding-top: 100px;
             color: rgb(0, 0, 0);
             animation: alternate 2s enter;
-            height: 70vh;
+            height: 85vh;
             display: grid;
             place-items: center;
             background-repeat: repeat;
@@ -72,5 +72,6 @@
         }
 
         .ads{
+            margin-top: 20px;
             display: flex;
         }
