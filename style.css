@@ -70,3 +70,7 @@
             position: absolute;
             left: 40%;
         }
+
+        .ads{
+            display: flex;
+        }
